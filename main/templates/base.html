@@ -21,7 +21,7 @@
             <a class="navbar-brand">Authentication</a>
 
             <div class="d-flex gap-5">
-
+                <a href="{% url 'cookiew' %}"><button class="btn btn-outline-secondary">Cookie</button></a>
 
                 {% if user.is_authenticated %}
                 <a href="{% url 'profile' %}"><button class="btn btn-outline-secondary">Profile</button></a>
